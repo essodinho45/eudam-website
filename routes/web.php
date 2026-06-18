@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Session;
-use Illuminate\Support\Facades\App;
 
 // Language Switcher Route
 Route::get('lang/{locale}', function ($locale) {
