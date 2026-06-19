@@ -56,14 +56,14 @@
             <h2 class="text-3xl font-extrabold text-[#22386b] mb-4">{{ __('services.s2_title') }}</h2>
             <h3 class="text-xl font-bold text-[#2da4af] mt-4 mb-3">{{ __('services.s2_sub1') }}</h3>
             <ul class="list-disc list-inside text-gray-700 space-y-2 marker:text-[#22386b]">
-                <li><span class="font-bold text-[#22386b]">Real-Time Monitoring:</span> {{ __('services.s2_sub1_l1') }}</li>
-                <li><span class="font-bold text-[#22386b]">Optimization:</span> {{ __('services.s2_sub1_l2') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s2_sub1_l1_title') }}</span> {{ __('services.s2_sub1_l1') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s2_sub1_l2_title') }}</span> {{ __('services.s2_sub1_l2') }}</li>
             </ul>
             <h3 class="text-xl font-bold text-[#2da4af] mt-8 mb-3">{{ __('services.s2_sub2') }}</h3>
             <ul class="list-disc list-inside text-gray-700 space-y-2 marker:text-[#22386b]">
-                <li><span class="font-bold text-[#22386b]">24/7 Response:</span> {{ __('services.s2_sub2_l1') }}</li>
-                <li><span class="font-bold text-[#22386b]">Site Handover:</span> {{ __('services.s2_sub2_l2') }}</li>
-                <li><span class="font-bold text-[#22386b]">Resource & Energy Efficiency:</span> {{ __('services.s2_sub2_l3') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s2_sub2_l1_title') }}</span> {{ __('services.s2_sub2_l1') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s2_sub2_l2_title') }}</span> {{ __('services.s2_sub2_l2') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s2_sub2_l3_title') }}</span> {{ __('services.s2_sub2_l3') }}</li>
             </ul>
         </div>
     </div>
@@ -84,14 +84,14 @@
             <h2 class="text-3xl font-extrabold text-[#22386b] mb-4">{{ __('services.s3_title') }}</h2>
             <h3 class="text-xl font-bold text-[#2da4af] mt-4 mb-3">{{ __('services.s3_sub1') }}</h3>
             <ul class="list-disc list-inside text-gray-700 space-y-2 marker:text-[#22386b]">
-                <li><span class="font-bold text-[#22386b]">AI & Digital Twins:</span> {{ __('services.s3_sub1_l1') }}</li>
-                <li><span class="font-bold text-[#22386b]">Smart Analytics:</span> {{ __('services.s3_sub1_l2') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s3_sub1_l1_title') }}</span> {{ __('services.s3_sub1_l1') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s3_sub1_l2_title') }}</span> {{ __('services.s3_sub1_l2') }}</li>
             </ul>
             <h3 class="text-xl font-bold text-[#2da4af] mt-8 mb-3">{{ __('services.s3_sub2') }}</h3>
             <ul class="list-disc list-inside text-gray-700 space-y-2 marker:text-[#22386b]">
-                <li><span class="font-bold text-[#22386b]">Digital Transformation:</span> {{ __('services.s3_sub2_l1') }}</li>
-                <li><span class="font-bold text-[#22386b]">Cybersecurity:</span> {{ __('services.s3_sub2_l2') }}</li>
-                <li><span class="font-bold text-[#22386b]">Infrastructure Consulting:</span> {{ __('services.s3_sub2_l3') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s3_sub2_l1_title') }}</span> {{ __('services.s3_sub2_l1') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s3_sub2_l2_title') }}</span> {{ __('services.s3_sub2_l2') }}</li>
+                <li><span class="font-bold text-[#22386b]">{{ __('services.s3_sub2_l3_title') }}</span> {{ __('services.s3_sub2_l3') }}</li>
             </ul>
         </div>
     </div>
