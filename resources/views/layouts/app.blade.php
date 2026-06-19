@@ -13,6 +13,8 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js" defer></script>
+
     <style>
         body {
             font-family: Tajawal, sans-serif;
