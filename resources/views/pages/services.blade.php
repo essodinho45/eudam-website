@@ -14,7 +14,14 @@
 
     <div class="flex flex-col md:flex-row gap-10 items-center">
         <div class="md:w-1/2" data-aos="fade-right">
-            <img src="{{ asset('images/services/8.jpeg') }}" alt="FTTX & Backbone Infrastructure" class="w-full h-80 object-cover rounded-xl shadow-md border border-gray-100">
+            @php
+                $fttx = [
+                    asset('images/services/4.webp'),
+                    asset('images/services/5.webp'),
+                    asset('images/services/6.webp'),
+                ];
+            @endphp
+            <x-carousel :images="$fttx" alt="FTTX & Backbone Infrastructure" :interval="5000" />
         </div>
         <div class="md:w-1/2" data-aos="fade-left">
             <h2 class="text-3xl font-extrabold text-[#22386b] mb-4">{{ __('services.s1_title') }}</h2>
@@ -35,7 +42,15 @@
 
     <div class="flex flex-col md:flex-row-reverse gap-10 items-center">
         <div class="md:w-1/2" data-aos="fade-left">
-            <img src="{{ asset('images/services/10.jpeg') }}" alt="Field Operations & Engineer" class="w-full h-80 object-cover rounded-xl shadow-md border border-gray-100">
+            @php
+                $field = [
+                    asset('images/services/7.jpeg'),
+                    asset('images/services/8.jpeg'),
+                    asset('images/services/9.jpeg'),
+                    asset('images/services/10.jpeg'),
+                ];
+            @endphp
+            <x-carousel :images="$field" alt="Field Operations & Engineer" :interval="5000" />
         </div>
         <div class="md:w-1/2" data-aos="fade-right">
             <h2 class="text-3xl font-extrabold text-[#22386b] mb-4">{{ __('services.s2_title') }}</h2>
@@ -55,8 +70,16 @@
 
     <div class="flex flex-col md:flex-row gap-10 items-center">
         <div class="md:w-1/2" data-aos="fade-right">
-            <img src="{{ asset('images/services/5.webp') }}" alt="Digital Tech / AI Networks" class="w-full h-80 object-cover rounded-xl shadow-md border border-gray-100">
+            @php
+                $digital = [
+                    asset('images/services/1.webp'),
+                    asset('images/services/2.webp'),
+                    asset('images/services/3.webp'),
+                ];
+            @endphp
+            <x-carousel :images="$digital" alt="Digital Tech / AI Networks" :interval="5000" />
         </div>
+
         <div class="md:w-1/2" data-aos="fade-left">
             <h2 class="text-3xl font-extrabold text-[#22386b] mb-4">{{ __('services.s3_title') }}</h2>
             <h3 class="text-xl font-bold text-[#2da4af] mt-4 mb-3">{{ __('services.s3_sub1') }}</h3>
@@ -73,5 +96,6 @@
         </div>
     </div>
 
-</section>
+    </section>
+
 @endsection
